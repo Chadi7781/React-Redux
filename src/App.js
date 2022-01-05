@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
 
 function App() {
+
+    const styleH1 = {
+        textAlign:"center",
+        color: "#1dc867",
+        margin : "auto",
+        padding:"15px 15px",
+
+    }
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1 style={styleH1}>Learn react redux with Chadi Academy</h1>
     </div>
   );
 }
